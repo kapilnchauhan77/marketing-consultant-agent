@@ -1,5 +1,6 @@
 langchain
 langgraph
+langchain-core
 langchain-openai
 tavily-python
 pytrends
@@ -8,3 +9,4 @@ beautifulsoup4
 httpx
 python-dotenv
 langchain-community
+watchdog
