@@ -66,6 +66,8 @@ def main():
 
     st.title("AI Marketing Media Plan (Streamlit Chat)")
     st.caption("Interact with an AI assistant to generate a marketing media plan.")
+    with st.chat_message("assistant"):
+        st.write("Hello! Please provide the business website URL you'd like me to analyze for creating a marketing media plan.")
 
     # Initialize session state variables
     if "langgraph_app" not in st.session_state:
